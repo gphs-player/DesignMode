@@ -1,0 +1,6 @@
+1.为远程服务生成STUB对象
+rmic com.design.proxy.rmicdemo.MyRemoteImpl
+2.启动rmiregistry,这样服务就能被注册
+命令行直接运行`rmiregistry`
+3.启动服务程序，MyRemoteImpl的main方法
+4.启动客户程序，MyRemoteClient的main方法

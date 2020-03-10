@@ -5,9 +5,9 @@ import com.design.factory.Operate;
 import com.design.factory.OperateFactory;
 import com.design.observe.FirstSubject;
 import com.design.observe.StockObserver;
-import com.design.proxy.Panjinlian;
-import com.design.proxy.WangPo;
-import com.design.proxy.Women;
+import com.design.proxy.demo.Panjinlian;
+import com.design.proxy.demo.WangPo;
+import com.design.proxy.demo.Women;
 import com.design.strategy.CashContext;
 
 /**
