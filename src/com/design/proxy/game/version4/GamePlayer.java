@@ -1,4 +1,5 @@
-package com.design.proxy.game.version3;
+package com.design.proxy.game.version4;
+
 
 /**
  * 真实的游戏角色
@@ -12,7 +13,7 @@ public class GamePlayer implements IGamePlayer {
 
     @Override
     public void login(String name) {
-        System.out.println(System.currentTimeMillis() +" :::"+name + "：登录游戏。");
+        System.out.println(name + "：登录游戏。");
     }
 
     @Override
@@ -23,8 +24,7 @@ public class GamePlayer implements IGamePlayer {
 
     @Override
     public void upgrade() {
-
-        System.out.println(System.currentTimeMillis() +" :::"+name + "：升级成功！");
+        System.out.println(name + "：升级成功！");
 
     }
 }
